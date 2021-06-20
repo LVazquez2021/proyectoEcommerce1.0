@@ -91,6 +91,7 @@ header {
 .footer-gral {
     position: relative;
     top: 335px;
+    background-color: #FFCC98;
 }
 
 .contenedor-tabla {
@@ -102,7 +103,7 @@ header {
     position: relative;
     width: 1350px;
     top: 335px;
-    background-color: coral;
+    background-color: #FFCC98;
 }
 
 #carrousel {
