@@ -1,4 +1,4 @@
-# Proyecto Ecommerce WebSite
+# Proyecto Ecommerce Website
 
 ### Installing
 
