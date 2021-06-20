@@ -1,0 +1,1091 @@
+{
+    "products": [{
+            "brand": "Samsung",
+            "model": "S10",
+            "description": "El celular libre Samsung Galaxy Note 10+ SM-N975F aura glow de 6.7 con una resolución de pantalla Dynamic AMOLED 2280 x 1080 (FHD+). Funciona con sistema operativo Android 9. Procesador de Exynos Octa-core 2x2.73 GHz Mongoose M4 & 2x2.4 GHz Cortex-A75 & 4x1.9 GHz Cortex-A55. Almacenamiento de 512 GB. Con cámara principal de 10 MP, cámara secundaria de 12+12+16+ToF MP. Video UHD 4K (3840 x 2160)@60fps",
+            "price": "69420",
+            "discountPercentage": "0",
+            "category": "Celulares",
+            "features": {
+                "inches": 6.7,
+                "screenType": "Led",
+                "resolution": "2280 x 1080",
+                "weigth": 2.1,
+                "Bluetooth": "SI",
+                "WiFi": "INTEGRADO",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "s10",
+                    "path": "/img/cel1.png"
+                },
+                {
+                    "title": "s10 ",
+                    "path": "/img/cel11.jpg"
+                },
+                {
+                    "title": "s10",
+                    "path": "/img/cel111.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Samsung",
+            "model": "A90",
+            "description": "El Galaxy A90 cambia tu forma de documentar la vida. La cámara triple se desliza y gira para captar lo que está pasando por delante y por detrás. Ahora tenés una cámara que captura a ambos lados para captar todos tus momentos. La cámara construida para Live. No solo para selfies",
+            "price": "69420",
+            "discountPercentage": "0",
+            "category": "Celulares",
+            "features": {
+                "inches": 6.1,
+                "screenType": "Led",
+                "resolution": 0.157,
+                "weigth": 14.99,
+                "Bluetooth": "SI",
+                "WiFi": "INTEGRADO",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "Celu3",
+                    "path": "/img/cel4.png"
+                },
+                {
+                    "title": "Celu 3",
+                    "path": "/img/cel44.jpg"
+                },
+                {
+                    "title": "Celu 3 ",
+                    "path": "/img/cel444.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Samsung",
+            "model": "A80",
+            "description": "Liberado. Pantalla Super AMOLED de 6.7. Cámaras traseras de 48Mpx/8Mpx/0.04Mpx.Cámaras delanteras de 48Mpx/8Mpx 0.04Mpx. Procesador Snapdragon 730 Octa-Core de 2.2GHz con 8GB de RAM. Batería de 3700mAh.Memoria interna de 128GB.Sistema operativo Android 9.0 Pie. Con sensor de huella dactilar.",
+            "price": "69420",
+            "discountPercentage": "0",
+            "category": "Celulares",
+            "features": {
+                "inches": 75,
+                "screenType": "Led",
+                "resolution": "4k uhd",
+                "weigth": 3.8,
+                "Bluetooth": "NO",
+                "WiFi": "INTEGRADO",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "cell4",
+                    "path": "/img/cel5.png"
+                },
+                {
+                    "title": "Celu4",
+                    "path": "/img/cel55.jpg"
+                },
+                {
+                    "title": "Celu4",
+                    "path": "/img/cel555.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Samsung",
+            "model": "Note 10",
+            "description": "El celular libre Samsung Galaxy Note 10+ SM-N975F aura glow de 6.7\" con una resolución de pantalla Dynamic AMOLED 2280 x 1080 (FHD+). Funciona con sistema operativo Android 9. Procesador de Exynos Octa-core 2x2.73 GHz Mongoose M4 & 2x2.4 GHz Cortex-A75 & 4x1.9 GHz Cortex-A55. Almacenamiento de 512 GB. Con cámara principal de 10 MP, cámara secundaria de 12+12+16+ToF MP. Video UHD 4K (3840 x 2160)@60fps.",
+            "price": "69420",
+            "discountPercentage": "15",
+            "category": "Celulares",
+            "features": {
+                "inches": 6.7,
+                "screenType": "Led",
+                "resolution": "2280 x 1080",
+                "weigth": 2.1,
+                "Bluetooth": "SI",
+                "WiFi": "INTEGRADO",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "Celu 1",
+                    "path": "/img/cel1.png"
+                },
+                {
+                    "title": "Sony 4k ",
+                    "path": "/img/cel11.jpg"
+                },
+                {
+                    "title": "Sony 4k ",
+                    "path": "/img/cel111.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Sony",
+            "model": "Xbr65a8g",
+            "description": "Smart TV OLED (Android TV) 65\" 4K. HDR UHD (3840 x 2160). Potencia 10w + 10w. Sonido Dolby, DTS Digital Surround,Clear Audio+. Wi Fi. HDMI x 4. Bluetooth 4.1. USB x 3. Soporte de sobremesa, Baterías, control remoto, instrucciones, cable de alimentación.",
+            "price": "204000",
+            "discountPercentage": "10",
+            "category": "smart",
+            "features": {
+                "inches": 75,
+                "screenType": "Led",
+                "resolution": "3840 X 2160",
+                "weigth": 90.1,
+                "Bluetooth": "SI",
+                "WiFi": "INTEGRADO",
+                "guarantee": "18 MESES"
+            },
+            "images": [{
+                "title": "Sony 4k ",
+                "path": "/img/smartv.png"
+            }]
+        },
+        {
+            "brand": "Sony",
+            "model": "Xbr75x805g",
+            "description": "Smart TV (Android TV) 75\" 4K HDR UHD (3840 x 2160). Potencia 10w + 10w. Sonido Dolby, DTS Digital Surround,Clear Audio+. Wi Fi. HDMI x 4. Bluetooth 4.1. USB x 3. Soporte de sobremesa, Baterías, control remoto, instrucciones, cable de alimentación.",
+            "price": "304000",
+            "discountPercentage": "0",
+            "category": "smart",
+            "features": {
+                "inches": 75,
+                "screenType": "Led",
+                "resolution": "3840 X 2160",
+                "weigth": 97.103,
+                "Bluetooth": "SI",
+                "WiFi": "INTEGRADO",
+                "guarantee": "14 MESES"
+            },
+            "images": [{
+                "title": "Sony Smart",
+                "path": "/img/smartvv.png"
+            }]
+        },
+        {
+            "brand": "HP",
+            "model": "DC0052LA",
+            "description": "Proc.8va Gen.Intel Core i5-8300H QC 2.3Ghz. Mem.RAM 8Gb DDR4. Disco duro 1Tb Sata. Pant.LED 15.6\"FHD. Wi-Fi/Bluetooth 5 combinado. Gráficos Nividia GeForce GTX1050 Ti. Webcam HD c/2 micróf.dig.integ. Sonido Bang & Olufsen. SO Windows 10 Home.",
+            "price": "89999",
+            "discountPercentage": "0",
+            "category": "notebooks",
+            "features": {
+                "inches": 15.6,
+                "screenType": "FHD",
+                "resolution": "26.29",
+                "weigth": 2.59,
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "10 MESES"
+            },
+            "images": [{
+                    "title": "Notebook HP",
+                    "path": "/img/ntb1.png"
+                },
+                {
+                    "title": "Notebook HP",
+                    "path": "/img/ntb22.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Lenovo",
+            "model": "81LK007GAR",
+            "description": "Proc.Intel Core I5-9300H. Mem.RAM 8Gb DDR4. Disco duro 1Tb. Pant.15.6\"FHD IPS. Gráficos GTX1050 3GB G5 96B. Webcam HD 720p. Wi-Fi. Bluetooth 4. HDMI. USB 3.0X2 y 1 tipo C. Teclado iluminado.SO Windows 10 Home.",
+            "price": "69420",
+            "discountPercentage": "4",
+            "category": "notebooks",
+            "features": {
+                "inches": 15.6,
+                "screenType": "IPS FHD",
+                "resolution": "36.3",
+                "weigth": 2.39,
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "LENOVO NTB",
+                    "path": "/img/ntb44.jpg"
+                },
+                {
+                    "title": "LENOVO NTB",
+                    "path": "/img/ntb4.png"
+                },
+                {
+                    "title": "LENOVO NTB",
+                    "path": "/img/ntb444.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Noblex",
+            "model": "DE50X6500",
+            "description": "Tipo de Pantalla:Led. Tipo de TV:Smart TV. Pulgadas:50. Formato de Pantalla:Plana. Resolucion de Video:4K Ultra HD. Resolucion:3840x2160. Relacion de Apescto:16:9. Contraste Dinámico:4.000:1. Brillo:280 Cd/m2. HDR:No. Tiempo de Respuesta:6.5 ms. Frecuencia de Refresco:60 HZ. Norma de Video: PAL-N, PAL-M, NTSC",
+            "price": "29999",
+            "discountPercentage": "0",
+            "category": "smart",
+            "features": {
+                "inches": 50,
+                "screenType": "LED",
+                "resolution": "3840x2160",
+                "weigth": 11.5,
+                "Bluetooth": "SI",
+                "WiFi": "NO",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "NOBLEX 50",
+                    "path": "/img/smartv.png"
+                },
+                {
+                    "title": "NOBLEX 50",
+                    "path": "/img/smartvv.png"
+                },
+                {
+                    "title": "NOBLEX 50",
+                    "path": "/img/smartvvv.png"
+                }
+            ]
+        },
+        {
+            "brand": "Philiph",
+            "model": "49PFG5102/77",
+            "description": "Tipo de Pantalla:Led. Tipo de TV:Smart TV. Pulgadas:49. Formato de Pantalla:Plana. Resolucion de Video:Full HD. Resolucion:1920x1080. Relacion de Apescto:16:9.Brillo:280 cd/m2. Frecuencia de Refresco:240 HZ. Norma de Video: NTSC, PAL-M, PAL-N",
+            "price": "31999",
+            "discountPercentage": "2",
+            "category": "smart",
+            "features": {
+                "inches": 49,
+                "screenType": "LED",
+                "resolution": "1920x1080",
+                "weigth": 11.3,
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "Philips 49",
+                    "path": "/img/tvsmart.jpg"
+                },
+                {
+                    "title": "Philips 49",
+                    "path": "/img/4kuhd.jpg"
+                },
+                {
+                    "title": "Philips 49",
+                    "path": "/img/4kuhdsmart.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Samsung",
+            "model": "UN32J4290AGCZB",
+            "description": "Tipo de Pantalla:Led. Tipo de TV:Smart TV. Pulgadas:32. Formato de Pantalla:Plana. Resolucion de Video:Full HD. Resolucion:1366x768. Relacion de Apescto:16:9. Frecuencia de Refresco:60 HZ. Norma de Video: NTSC, PAL-M, PAL-N",
+            "price": "17999",
+            "discountPercentage": "0",
+            "category": "smart",
+            "features": {
+                "inches": 32,
+                "screenType": "LED",
+                "resolution": "1366x768",
+                "weigth": 3.8,
+                "Bluetooth": "SI",
+                "WiFi": "NO",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "Samsung 32",
+                    "path": "/img/123.jpg"
+                },
+                {
+                    "title": "Samsung 32",
+                    "path": "/img/321.jpg"
+                },
+                {
+                    "title": "Samsung 32",
+                    "path": "/img/aver.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Philco",
+            "model": "CODC175306E137000",
+            "description": "Smart TV. Pantalla 32 Resolución 1366x768. Contraste 3000:1. Frecuencia de refresco 60Hz. Potencia 10W. HDMI x 2. USB. A/V. Sintonizador Digital TDA. WiFi. Video compuesto. Video por componentes.",
+            "price": "13999",
+            "discountPercentage": "50",
+            "category": "smart",
+            "features": {
+                "inches": 32,
+                "screenType": "LED",
+                "resolution": "1366x768",
+                "weigth": 4.9,
+                "Bluetooth": "NO",
+                "WiFi": "NO",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "Philco 32",
+                    "path": "/img/aver.jpg"
+                },
+                {
+                    "title": "Philco 32",
+                    "path": "/img/aver2.jpg"
+                },
+                {
+                    "title": "Philco 32",
+                    "path": "/img/aver.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Hisense",
+            "model": "CODC174176E137133",
+            "description": "Led Smart diseño ultradelgado. 32 HD. Procesador Quad Core. HDMI. USB. Wi Fi. Entradas p/audio y video. Salida p/auriculares y audio digital multicanal. Audio 2x5W. Netflix. YouTube. Control remoto",
+            "price": "14249",
+            "discountPercentage": "0",
+            "category": "smart",
+            "features": {
+                "inches": 32,
+                "screenType": "LED",
+                "resolution": "1366x768",
+                "weigth": 4.4,
+                "Bluetooth": "NO",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "Hisense 32",
+                    "path": "/img/4kuhd.jpg"
+                },
+                {
+                    "title": "Hisense 32",
+                    "path": "/img/4kuhdsmart.jpg"
+                },
+                {
+                    "title": "Hisense 32",
+                    "path": "/img/aver.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "LG",
+            "model": "43UM7360PSA",
+            "description": "AI Smart, una nueva forma de Smart evolucionada por AIResolución 4K con un nuevo estándar de alta definiciónInmersión real con amplio ángulo de visiónProcesador Quad CoreTrue Color Accuracy4K Active HDR para detalles increíbles",
+            "price": "34999",
+            "discountPercentage": "0",
+            "category": "smart",
+            "features": {
+                "inches": 43,
+                "screenType": "LED",
+                "resolution": "3840X2160",
+                "weigth": 6.10,
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "LG 43",
+                    "path": "/img/321.jpg"
+                },
+                {
+                    "title": "LG 43",
+                    "path": "/img/123.jpg"
+                },
+                {
+                    "title": "LG 43",
+                    "path": "/img/aver.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "BGH",
+            "model": "B4318FH5",
+            "description": "Smart Tv 43. Resolución FHD 1920x1080. Entradas HDMI y puertos USB disponibles. Sintonizador digital incorporado con funcion PVR y Timeshift para grabar tus programas favoritos. Wi-fi. Netflix, Youtube y Vewd (ex Opera store).",
+            "price": "21899",
+            "discountPercentage": "0",
+            "category": "smart",
+            "features": {
+                "inches": 43,
+                "screenType": "LED",
+                "resolution": "1920x1080",
+                "weigth": 6.10,
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "BGH 43",
+                    "path": "/img/321.jpg"
+                },
+                {
+                    "title": "BGH 43",
+                    "path": "/img/123.jpg"
+                },
+                {
+                    "title": "BGH 43",
+                    "path": "/img/aver.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "TCL",
+            "model": "L50P65",
+            "description": "Smart TV de 50 4K. Resolución UHD 3840 x 2160. Aplicaciones: Neflix certificado, Youtube certificado, Certificado T-Cast. Dolby Audio. HDR. Micro Dimming.",
+            "price": "29499",
+            "discountPercentage": "0",
+            "category": "smart",
+            "features": {
+                "inches": 50,
+                "screenType": "LED",
+                "resolution": "3840X2160",
+                "weigth": 10.3,
+                "Bluetooth": "NO",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "TLC 50",
+                    "path": "/img/smartv.png"
+                },
+                {
+                    "title": "TLC 50",
+                    "path": "/img/smartvv.png"
+                },
+                {
+                    "title": "TLC 50",
+                    "path": "/img/smartvvv.png"
+                }
+            ]
+        },
+        {
+            "brand": "Sanyo",
+            "model": "LCE50SU9200",
+            "description": "Smart 50. 4K UHD. Resolucion 3840 x 2160. Potencia de parlantes 8 W RMS (x2). HDMI x 3. USB x 2. WiFi. Puerto de red. Youtube. Apto Netflix. Navegacion intermnet. Salida de audio optico digital. Medidas Vesa 200 x200.",
+            "price": "27607",
+            "discountPercentage": "0",
+            "category": "smart",
+            "features": {
+                "inches": 50,
+                "screenType": "LED",
+                "resolution": "1920X1200",
+                "weigth": 9.7,
+                "Bluetooth": "NO",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "Sanyo 50",
+                    "path": "/img/321.jpg"
+                },
+                {
+                    "title": "Sanyo 50",
+                    "path": "/img/4kuhdsmart.jpg"
+                },
+                {
+                    "title": "Sanyo 50",
+                    "path": "/img/aver.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Samsung",
+            "model": "GALAXY J2 CORE_SM-J260MZDAARO",
+            "description": "Tecnología de Navegación: 4G. Tipo de Sensor: Accelerometer Proximity.  Color: Dorado . Resistente al agua: No. Lector de huellas: No",
+            "price": "11499",
+            "discountPercentage": "0",
+            "category": "Celulares",
+            "features": {
+                "inches": 5,
+                "internal memory": "8 GB",
+                "resolution": "540x960",
+                "Ram": "1 GB",
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "GALAXY J2",
+                    "path": "/img/cel1.png"
+                },
+                {
+                    "title": "GALAXY J2",
+                    "path": "/img/cel2.png"
+                },
+                {
+                    "title": "GALAXY J2",
+                    "path": "/img/cel4.png"
+                }
+            ]
+        },
+        {
+            "brand": "Samsung",
+            "model": "Galaxy A30",
+            "description": "Tecnología de Navegación: 4G. Tipo de Sensor: Accelerometer Proximity.  Color: Azul . Resistente al agua: No. Lector de huellas: No",
+            "price": "25999",
+            "discountPercentage": "0",
+            "category": "Celulares",
+            "features": {
+                "inches": 6.4,
+                "internal memory": "32 GB",
+                "resolution": "2340x1080",
+                "Ram": "3 GB",
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "GALAXY A30",
+                    "path": "/img/cel5.png"
+                },
+                {
+                    "title": "GALAXY A30",
+                    "path": "/img/cel6.png"
+                },
+                {
+                    "title": "GALAXY A30",
+                    "path": "/img/cel11.png"
+                }
+            ]
+        },
+        {
+            "brand": "Samsung",
+            "model": "A10",
+            "description": "Tecnología de Navegación: 4G. Tipo de Sensor: Accelerometer Proximity Ambient Light.  Color: Negro . Resistente al agua: No. Lector de huellas: No",
+            "price": "16499",
+            "discountPercentage": "0",
+            "category": "Celulares",
+            "features": {
+                "inches": 6.2,
+                "internal memory": "32 GB",
+                "resolution": "720x1520",
+                "Ram": "2 GB",
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "A10",
+                    "path": "/img/cel22.jpg"
+                },
+                {
+                    "title": "A10",
+                    "path": "/img/cel44.jpg"
+                },
+                {
+                    "title": "A10",
+                    "path": "/img/cel55.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Tagwood",
+            "model": "ICHAR 32",
+            "description": "Cargador de pared c/ doble puerto USB. Ideal p/ Smartphones y Tablets. Voltaje universal de 100V-240V. (Optimizado para Apple). Salida (CC) 5.0V - 3400 mA. USB1 2400mA-USB2 1000mA. Incluye cable plano anti-enredos micro USB de 50 cm",
+            "price": "283000",
+            "discountPercentage": "0",
+            "category": "cargadores",
+            "features": {
+                "origin": "china",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "ICHAR 32",
+                    "path": "/img/ichar-32.jpg"
+                },
+                {
+                    "title": "ICHAR 32",
+                    "path": "/img/ichar-32-2.jpg"
+                },
+                {
+                    "title": "ICHAR 32",
+                    "path": "/img/ichar-32-3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Tagwood",
+            "model": "ICHAR 34",
+            "description": "Cargador de pared c/ 4 puertos USB. Ideal p/ Smartphones y Tablets. Voltaje universal de 100V-240V. Salida (CC) 5.0V - 5000 mA. (Optimizado para Apple). Incluye cable plano anti-enredos micro USB de 50 cm",
+            "price": "366",
+            "discountPercentage": "0",
+            "category": "cargadores",
+            "features": {
+                "origin": "China",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "ICHAR 34",
+                    "path": "/img/ichar34.jpg"
+                },
+                {
+                    "title": "ICHAR 34",
+                    "path": "/img/icharr34.jpg"
+                },
+                {
+                    "title": "ICHAR 34",
+                    "path": "/img/icharrr34.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Noganet",
+            "model": "NGA 352",
+            "description": "Cargador rápido USB. Incluye cable con salida Micro USB. Funciones de protección contra cortocircuito y sobrecarga de corriente . Entrada: 220V-300mA. Salida 5V -2A. Frecuencia 50/60 Hz. 2 Puertos USB para recarga (Android/IOS)",
+            "price": "8999",
+            "discountPercentage": "0",
+            "category": "cargadores",
+            "features": {},
+            "images": [{
+                    "title": "NGA 352",
+                    "path": "/img/nga-352.jpg"
+                },
+                {
+                    "title": "NGA 352",
+                    "path": "/img/nga-352-2.jpg"
+                },
+                {
+                    "title": "NGA 352",
+                    "path": "/img/nga-352-3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "HP",
+            "model": "14-cm0045la AMD A4",
+            "description": "sistema operativo: windows 10 home. procesador: AMD A4-9125. pantalla: 14-0 diagonal HD SVA brightview con luz fondo WLED",
+            "price": "26999",
+            "discountPercentage": "20",
+            "category": "notebooks",
+            "features": {
+                "inches": 14,
+                "resolution": "1366x768",
+                "Ram": "4 GB",
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "HP",
+                    "path": "/img/ntb1.png"
+                },
+                {
+                    "title": "HP",
+                    "path": "/img/ntb2.Jpg"
+                },
+                {
+                    "title": "HP",
+                    "path": "/img/ntb4.png"
+                }
+            ]
+        },
+        {
+            "brand": "EXO",
+            "model": "WINGS K1822",
+            "description": "2 En 1 desmontable. Proc.Intel Atom x5-Z8300 Quad Core. SO Windows 10 Home. Memoria int.32Gb, RAM 2Gb. Pant.IPS 10.1 . multitouch (1280x800). Wi-Fi. Bluetooth. Webcam 2Mp. Micro HDMI/Micro USB/USB 3.0 tipo C/DC-Jack/Auricular 3.5mm. Bateria 7500mAh",
+            "price": "15999",
+            "discountPercentage": "0",
+            "category": "notebooks",
+            "features": {
+                "inches": 10.1,
+                "resolution": "1280x800",
+                "Ram": "2 GB",
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "EXO",
+                    "path": "/img/ntb5.png"
+                },
+                {
+                    "title": "EXO",
+                    "path": "/img/ntb22.jpg"
+                },
+                {
+                    "title": "EXO",
+                    "path": "/img/ntb44.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Acer",
+            "model": "A314-31C1ZW",
+            "description": "Proc. Intel Celeron DN3350. Velocidad Proc. 1.10GHz. Pantalla HD 14. Capacidad 500Gb / RAM 4Gb. Camara web. Microfono incorporado. Placa de video UMA. Entrada p/microfono. Wi Fi. USB. HDMI. S.O. Windows 10 Home. Bateria 2 celdas 4.8",
+            "price": "26099",
+            "discountPercentage": "0",
+            "category": "notebooks",
+            "features": {
+                "inches": 14,
+                "resolution": "1920x1080",
+                "Ram": "4 GB",
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "acer",
+                    "path": "/img/ntb55.jpg"
+                },
+                {
+                    "title": "acer",
+                    "path": "/img/ntb222.jpg"
+                },
+                {
+                    "title": "acer",
+                    "path": "/img/ntb444.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "Samsung",
+            "model": "A T510",
+            "description": "Pantalla TFT de10.1. Resolución 1920x1200 (WUXGA). Procesador Octa core 1.6Ghz. SO Android. Almacenamiento 32Gb, RAM 2Gb. Camara posterior 8 Mp.  autofoco. Frontal 5Mp. Wi-Fi.Bluetooth 5.0. Gps",
+            "price": "23999",
+            "discountPercentage": "0",
+            "category": "tablets",
+            "features": {
+                "inches": 10.1,
+                "internal memory": "32 GB",
+                "resolution": "1920x1200",
+                "Ram": "2 GB",
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "24 MESES"
+            },
+            "images": [{
+                    "title": "A T510",
+                    "path": "/img/tablet1.jpg"
+                },
+                {
+                    "title": "A T510",
+                    "path": "/img/tablet2.jpg"
+                },
+                {
+                    "title": "A T510",
+                    "path": "/img/tablet3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "TCL",
+            "model": "LT7M",
+            "description": "Pantalla 7. Procesador Quad Core. Velocidad 1.3 GHz. SO Android Oreo (Go Edition). Capacidad 16Gb / RAM 1Gb. Lector tarjeta h/128Gb. Camara prinicpal 5MP/frontal 2MP. Wi Fi / GPS / Bluetooth 4.2 / Radio. Bateria 2580 mAh 3 celdas,duracion Standby 430hs.",
+            "price": "5999",
+            "discountPercentage": "30",
+            "category": "tablets",
+            "features": {
+                "inches": 7,
+                "internal memory": "16 GB",
+                "resolution": "720x1520",
+                "Ram": "1 GB",
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "LT7M",
+                    "path": "/img/tablet4.jpg"
+                },
+                {
+                    "title": "LT7M",
+                    "path": "/img/tablet11.jpg"
+                },
+                {
+                    "title": "LT7M",
+                    "path": "/img/tablet22.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "ALCATEL",
+            "model": "1T 8020",
+            "description": "Pant.LCD 10.1. IPS 1280x800. Proc.Quad Core 1.3Ghz. SO Android Oreo 8.1. Memoria int.16Gb/RAM 1Gb. Slot p/micro SD h/128Gb. Cámaras 5.0Mp/2Mp. Wi-Fi: Direct/Hotspotss. Bluetooth. Multitouch. Micro USB 2.0. Bateria 4000mAh. Incluye teclado y funda",
+            "price": "11999",
+            "discountPercentage": "5",
+            "category": "tablets",
+            "features": {
+                "inches": 10.1,
+                "internal memory": "16 GB",
+                "resolution": "1280x800",
+                "Ram": "1 GB",
+                "Bluetooth": "SI",
+                "WiFi": "SI",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "1T 8020",
+                    "path": "/img/tablet33.jpg"
+                },
+                {
+                    "title": "1T 8020",
+                    "path": "/img/tablet44.jpg"
+                },
+                {
+                    "title": "1T 8020",
+                    "path": "/img/tablet111.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "WHIRLPOOL",
+            "model": "WRA09B1",
+            "description": "Nueva línea de heladeras bajo mesada con congelador. Se caracteriza por su diseño vintage (basado en los años 50) con tecnología contemporánea",
+            "price": "29899",
+            "discountPercentage": "0",
+            "category": "heladeras",
+            "features": {
+                "height": 80,
+                "widht": 51,
+                "weigh": 30,
+                "freezer": "SI",
+                "Can Holder": "SI",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "WHIRLPOOL",
+                    "path": "/img/whirlpool.jpg"
+                },
+                {
+                    "title": "WHIRLPOOL",
+                    "path": "/img/whirlpool-3.png"
+                },
+                {
+                    "title": "WHIRLPOOL",
+                    "path": "/img/whirlpool-2.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "GAFA",
+            "model": "HGF367AFB",
+            "description": "Heladera Cíclica Blanca 334 Lts (76 Lts Freezer)",
+            "price": "32999",
+            "discountPercentage": "15",
+            "category": "heladeras",
+            "features": {
+                "height": 161,
+                "widht": 61,
+                "weigh": 62,
+                "freezer": "SI",
+                "Can Holder": "SI",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "GAFA",
+                    "path": "/img/gafa.jpg"
+                },
+                {
+                    "title": "GAFA",
+                    "path": "/img/gafa-2.jpg"
+                },
+                {
+                    "title": "GAFA",
+                    "path": "/img/gafa-3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "ELECTROLUX",
+            "model": "DW42X",
+            "description": "Diseño sofisticado e innovador con manija de metal. Control de temperatura externo blue touch. Dispenser de agua. Accesorio 2 en 1: porta latas + bandeja multiuso. Anaquel del congelador retráctil-",
+            "price": "59999",
+            "discountPercentage": "0",
+            "category": "heladeras",
+            "features": {
+                "height": 178,
+                "widht": 60,
+                "weigh": 67,
+                "freezer": "SI",
+                "Can Holder": "SI",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "ELECTROLUX",
+                    "path": "/img/electrolux.jpg"
+                },
+                {
+                    "title": "ELECTROLUX",
+                    "path": "/img/electrolux-2.jpg"
+                },
+                {
+                    "title": "ELECTROLUX",
+                    "path": "/img/electrolux-3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "AURORA",
+            "model": "8514",
+            "description": "Capacidad 8Kg.1400 rpm. Tecnologia Inverter. 35 Programas. Display LED. Sistema inteligente de temperatura. Balance dinamico. Aviso sonoro de fin de ciclo. Indicacion de avance de programa. 1/2 carga/carga autoadaptiva",
+            "price": "36999",
+            "discountPercentage": "59",
+            "category": "lavarropas",
+            "features": {
+                "height": 85.5,
+                "widht": 59.5,
+                "weigh": 72,
+                "quick wash": "SI",
+                "steel drum": "SI",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "AURORA",
+                    "path": "/img/aurora.jpg"
+                },
+                {
+                    "title": "AURORA",
+                    "path": "/img/aurora-2.jpg"
+                },
+                {
+                    "title": "AURORA",
+                    "path": "/img/aurora-3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "DREAN",
+            "model": "NEXT 10-12 PG",
+            "description": "Sistema de lavado de alta eficiencia (SLAE). Carga Superior. 5-5 kg. de capacidad. Tambor y cuba inoxidables. Polycron Blanco. Comando Superior. Motor Termoprotegido. Bomba de desagote. 8 programas AUTOMATICOS de Lavado y Enjuague ECO",
+            "price": "12999",
+            "discountPercentage": "42",
+            "category": "lavarropas",
+            "features": {
+                "height": 85.5,
+                "widht": 64,
+                "weigh": 72,
+                "quick wash": "NO",
+                "steel drum": "SI",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "DREAN",
+                    "path": "/img/dream.jpg"
+                },
+                {
+                    "title": "DREAN",
+                    "path": "/img/drean-2.jpg"
+                },
+                {
+                    "title": "DREAN",
+                    "path": "/img/drean-3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "ELECTROLUX",
+            "model": "ELAC210W",
+            "description": "Automatico. Carga Sup. Cap.10Kg. Sistema Fuzzy. 7 Programas. 750 rpm. Lavado rapido / diferido. Controles digitales. Tambor de ac. inoxidable. Funcion limpieza de tambor. Reg. temperatura. 1/2 carga. Doble entrada de agua. Puerta vidrio templado. EE A+",
+            "price": "36133",
+            "discountPercentage": "1",
+            "category": "lavarropas",
+            "features": {
+                "height": 102.6,
+                "widht": 60,
+                "weigh": 41,
+                "quick wash": "SI",
+                "steel drum": "SI",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "ELECTROLUX",
+                    "path": "/img/lavarropa-electrolux.jpg"
+                },
+                {
+                    "title": "ELECTROLUX",
+                    "path": "/img/lavarropa-electrolux-2.jpg"
+                },
+                {
+                    "title": "ELECTROLUX",
+                    "path": "/img/lavarropa-electrolux-3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "SURREY",
+            "model": "UCVE18R8F1",
+            "description": "AA SURREY VENTANA UCVE18R8F1 4455 Kcal/hora Frio Solo Gas refrigerante ecologico R410 eficiencia energética A en Refrigeracion GABINETE DESLIZABLE y Bajo nivel sonoro control remoto. Funcion: Sw",
+            "price": "29999",
+            "discountPercentage": "0",
+            "category": "aires",
+            "features": {
+                "height": 51.5,
+                "widht": 81.5,
+                "weigh": 63,
+                "cold only": "SI",
+                "cold hot": "NO",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "SURREY",
+                    "path": "/img/surrey.png"
+                },
+                {
+                    "title": "SURREY",
+                    "path": "/img/surrey-2.jpg"
+                },
+                {
+                    "title": "SURREY",
+                    "path": "/img/surrey-3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "MARSHALL",
+            "model": "MAS25C18N",
+            "description": "Split Frio solo de 2600W. Timer programable. Display LCD oculto. Función Sleep. Barrido de aire automático. Filtros lavables. Super silencioso. Refrigerante ecológico R410A. Eficiencia Energética A. Control remoto multifunción",
+            "price": "22999",
+            "discountPercentage": "0",
+            "category": "aires",
+            "features": {
+                "height": 27.5,
+                "widht": 79,
+                "weigh": 9,
+                "cold only": "SI",
+                "cold hot": "NO",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "MARSHALL",
+                    "path": "/img/marshall.jpg"
+                },
+                {
+                    "title": "MARSHALL",
+                    "path": "/img/marshall-2.png"
+                },
+                {
+                    "title": "MARSHALL",
+                    "path": "/img/marshall-3.jpg"
+                }
+            ]
+        },
+        {
+            "brand": "MIDEA",
+            "model": "MSBC-12C-01F",
+            "description": "Split Frio solo de 2600W. Timer programable. Display LCD oculto. Función Sleep. Barrido de aire automático. Filtros lavables. Super silencioso. Refrigerante ecológico R410A. Eficiencia Energética A. Control remoto multifunción",
+            "price": "26349",
+            "discountPercentage": "0",
+            "category": "aires",
+            "features": {
+                "height": 28.5,
+                "widht": 80.5,
+                "weigh": 8.6,
+                "cold only": "SI",
+                "cold hot": "NO",
+                "guarantee": "12 MESES"
+            },
+            "images": [{
+                    "title": "MIDEA",
+                    "path": "/img/midea.jpg"
+                },
+                {
+                    "title": "MIDEA",
+                    "path": "/img/midea-2.jpg"
+                },
+                {
+                    "title": "MIDEA",
+                    "path": "/img/midea-3.jpg"
+                }
+            ]
+        }
+    ]
+}

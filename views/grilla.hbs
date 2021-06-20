@@ -1,0 +1,39 @@
+{{>header}}
+{{>carrousel}}
+{{#if productos}}
+  <h2>{{tituloResultados}}</h2>
+<div id="contenedor" class="contenedor">
+    {{#each productos}}
+      <div class="card shadow mb-1 rounded" style="width: 20rem;">
+          <img src="{{images.[0].path}}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{this.category}}</h5>
+            <p>Marca:{{this.brand}}</p>
+            <p>Modelo:{{this.model}}</p>
+            <p class="priceTitle">Precio: ${{number this.price}}</p> 
+            </br> 
+            <div class="d-grid gap-4">
+              <button class="btn btn-primary button" id="btn-a" onclick="viewProductDetail('{{this._id}}')"> Ver mas</button>
+            </div>            
+          </div>
+      </div>
+    {{/each}}
+  </div>
+{{else}}
+<div class="contenedor">
+  <h2>No se encontraron productos para tu búsqueda</h2>
+</div>
+{{/if}}
+{{>footer}}
+
+
+<script>
+
+  function viewProductDetail(id){
+
+    console.log('holaaaaa')
+    window.location.href = `/detalleProd?id=${id}`;
+  }
+
+
+</script>

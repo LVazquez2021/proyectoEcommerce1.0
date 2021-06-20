@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>{{title}}</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bgHeader">
+          <img src="img/carro/carrito.png" class="d-none d-sm-inline-block" width="70" height="70">
+          <a id="colorWord" class="navbar-brand" href="/buscar">MyCarro</a>
+          <input class="form-control d-sm-none w-50" type="search" placeholder="Buscar productos...">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03">
+                  <span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto my-lg-0">
+              <li class="nav-item active dropdown">
+                  <a id="colorWord" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                  aria-haspopup="true" aria-expanded="false">Tv,Audio y Video.</a>
+                  <div class="dropdown-menu">
+                      <a id="colorWord" class="dropdown-item" href="#">Smart Tv.</a>
+                      <a id="colorWord" class="dropdown-item" href="#">Full HD.</a>
+                      <a id="colorWord" class="dropdown-item" href="#">Tv. por Marcas.</a>
+                      <div class="dropdown-divider"></div>
+                      <a id="colorWord" class="dropdown-item" href="#">Ver más.</a>
+                  </div>
+              </li>
+              <li class="nav-item active dropdown">
+                  <a id="colorWord" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                  aria-haspopup="true" aria-expanded="false">Celulares y Tecnologia.</a>
+                  <div class="dropdown-menu">
+                      <a id="colorWord" class="dropdown-item" href="#">Celulares Liberados</a>
+                      <a id="colorWord" class="dropdown-item" href="#">Cargadores Portátiles</a>
+                      <a id="colorWord" class="dropdown-item" href="#">Notebooks</a>
+                      <a id="colorWord" class="dropdown-item" href="#">Tablets</a>
+                      <div class="dropdown-divider"></div>
+                      <a id="colorWord" class="dropdown-item" href="#">Ver más.</a>
+                  </div>
+              </li>
+              <li class="nav-item active dropdown">
+                      <a id="colorWord" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                  aria-haspopup="true" aria-expanded="false">Electrodomésticos y Acc.</a>
+                  <div class="dropdown-menu">
+                      <a id="colorWord" class="dropdown-item" href="#">Heladeras con Freezer</a>
+                      <a id="colorWord" class="dropdown-item" href="#">Lavarropas Automáticos.</a>
+                      <a id="colorWord" class="dropdown-item" href="#">Aire Acondicionados.</a>
+                      <a id="colorWord" class="dropdown-item" href="#">Splits.</a>
+                      <div class="dropdown-divider"></div>
+                      <a id="colorWord" class="dropdown-item" href="#">Ver más.</a>
+                  </div>
+              </li>
+          </ul>
+                  <div class="btn-group">
+                      <a id="colorWord" href="/cart" class="btn">Carrito</a>
+                      <a id="colorWord" class="btn pointer" data-toggle="modal" data-target="#signinModal">SignIn</a>
+                      <a id="colorWord" class="btn pointer" data-toggle="modal" data-target="#loginModal">LogIn</a>
+                  </div>
+                  <input type="text" id="input-nombre" name="valor"/>
+                  <button id="btn-buscar"  >Buscar</button>
+          </div>
+    </nav>
+</header>
+      
+<script>
+const btnBuscar = document.getElementById("btn-buscar");
+const inputNombre = document.getElementById("input-nombre");
+
+//Boton de busqueda de productos 
+btnBuscar.addEventListener("click", function() {
+    window.location.href = "/buscar?valor=" + inputNombre.value})
+</script>
+
+    

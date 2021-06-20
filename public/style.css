@@ -1,0 +1,207 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #FFCC98;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    color: black;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 150px;
+    margin-left: 80px;
+    width: 100%;
+    height: 45%;
+}
+
+.contenedor .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contenedor .card img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.carro-container {
+    position: relative;
+    top: 180px;
+    width: 90%;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.tituloCarrito {
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.carrito {
+    min-height: 60vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.carrito table {
+    color: white;
+    border: none;
+}
+
+.table__productos {
+    display: flex;
+    border: none;
+}
+
+.table__productos>img {
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad>input {
+    width: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-gral {
+    position: relative;
+    top: 335px;
+}
+
+.contenedor-tabla {
+    width: 90%;
+    height: 300px;
+}
+
+.footer-carro {
+    position: relative;
+    width: 1350px;
+    top: 335px;
+    background-color: coral;
+}
+
+#carrousel {
+    position: relative;
+    top: 100px;
+}
+
+.tablaProducto {
+    position: relative;
+    top: 100px;
+    left: 150px;
+    width: 80%;
+    height: 350px;
+    border-collapse: collapse;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.tablaProducto thead {
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2em;
+}
+
+.tablaProducto thead td {
+    padding: 8px;
+}
+
+.tablaProducto tbody tr:nth-child(even) {
+    background-color: #e7ffe7
+}
+
+.tablaProducto tbody td:nth-child(1) {
+    font-weight: bold;
+}
+
+.tablaProducto td {
+    border: 1px solid black;
+}
+
+.fotoProducto {
+    width: 200px;
+    border: 1px solid #777;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#colorWord {
+    color: black
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 4px;
+    align-self: center;
+    justify-content: center;
+}
+
+.botones button a {
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    padding: 5px;
+}
+
+#btn-a {
+    display: block;
+    width: 200px;
+}
+
+.botones #btn2 {
+    margin-top: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .card-title {
+    font-size: 25px;
+}
+
+.card-body a {
+    width: 125px;
+}
+
+.priceTitle {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#btn-a {
+    color: white;
+    text-decoration: none;
+}
