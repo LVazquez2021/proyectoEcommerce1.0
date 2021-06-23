@@ -55,7 +55,6 @@ app.get('/buscar', (req, res) => {
         },
         (listaProductosConsulta) => {
             textoTitulo = "Búsqueda de productos";
-            // Renderizo la vista "grilla" con esos datos
             res.render("grilla", {
                 productos: listaProductosConsulta,
             });
@@ -81,9 +80,9 @@ app.get('/detalleProd', function(req, res) {
             } else {
                 producto.disabled = false;
             }
-            // Renderiza la vista "producto" dentro del main-layout con los datos que le pasamos
+
             res.render("detalle-prod", {
-                producto, // producto: producto 
+                producto,
             });
         }
     );
@@ -103,7 +102,6 @@ app.post("/cart", function(req, res) {
         res.status(500).send();
         console.log('errores');
     }
-    //  console.log(req.session.carrito);
 
 });
 
