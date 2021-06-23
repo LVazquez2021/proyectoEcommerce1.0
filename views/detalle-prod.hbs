@@ -1,54 +1,79 @@
 {{>header}}
     <h1>{{titulo}}</h1>
-<div class="contenedor-tabla">
-<table class="tablaProducto">
-  <thead>
-    <tr>
-      <td class="titleHeader" >Marca</td>
-      <td class="titleHeader">Modelo</td>
-      <td class="titleHeader">Precio</td>
-      {{!-- <td class="titleHeader">Descripcion</td> --}}
-      <td class="titleHeader">Caracteriticas</td>
-     <td>Foto</td>
-      <td>Acciones</td>
-    </tr>
-  </thead>
-  <tbody class="tbody">
-      <tr>
-        <td class="brand">{{producto.brand}}</td>
-        <td class="model">{{producto.model}}</td>
-        <td class="price">${{number producto.price}}</td>
-        {{!-- <td>{{producto.description}}</td> --}}
-        <td>
-          <ul>
-            {{#each producto.features}}
-              <li class="features">
-                {{this}}
-              </li>
-            {{/each}}
-          </ul>
-        </td>
-        <td><img class="fotoProducto" src="{{producto.images.[0].path}}" /></td>
-        <td class="botones">
-          <button id="btn1" class="btn btn-primary button">Agregar a Carrito</button>
-          <button id="btn2" class="btn btn-primary button"><a href="/buscar">Seguir Comprando</a></button>
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
+    <div class="contenedor-tabla">
+        <table class="tablaProducto">
+            <thead>
+                <tr>
+                    <td class="titleHeader" >Marca</td>
+                    <td class="titleHeader">Modelo</td>
+                    <td class="titleHeader">Precio</td>
+                    <td class="titleHeader">Caracteriticas</td>
+                    <td>Foto</td>
+                    <td>Acciones</td>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td class="brand">{{producto.brand}}</td>
+                    <td class="model">{{producto.model}}</td>
+                    <td class="price">${{number producto.price}}</td>
+                    <td>
+                        <ul>
+                            {{#each producto.features}}
+                                <li class="features">
+                                {{this}}
+                                </li>
+                            {{/each}}
+                        </ul>
+                    </td>
+                    <td><img class="fotoProducto" src="{{producto.images.[0].path}}" /></td>
+                    <td class="botones">
+                        {{#if producto.disabled}}   
+                            <button disabled="true" class="btn btn-primary button">Producto ya esta en carrito</button>
+                    
+                        {{else}}
+                            <button id="btn1" class="btn btn-primary button">Agregar a Carrito</button>
+                        {{/if}}
+                            <button id="btn2" class="btn btn-primary button"><a href="/buscar">Seguir Comprando</a></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 {{>footer-carro}}
 
  <script>
-  const btnAddCart = document.getElementById('btn1');
+    const btnAddCart = document.getElementById('btn1');
+      
 
-  btnAddCart.addEventListener('click', addItemToCart);
+    function getProductForCart(e){
+        return {
+            id:"{{producto._id}}",
+            brand:"{{producto.brand}}",
+            model:"{{producto.model}}",
+            price:"{{producto.price}}",
+            img:"{{producto.images.[0].path}}",
+            quantity:1      
+        }
+    };
 
-  function addItemToCart(e){
-    const button = e.target;
-    console.log(button)
+    btnAddCart.addEventListener("click", function() {
+        const xhr = new XMLHttpRequest();
 
-  }
+        xhr.addEventListener("load", function() {
+            
+            if (xhr.status === 200) {
+                window.location.href = "/cart";
+            } else {
+                console.log(xhr.status);
+                //pendiente mostrar mensajes
+            }
 
-  
+        });
+
+        // Envío el request especificando el tipo de contenido como JSON
+        xhr.open("POST", "/cart");
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.send(JSON.stringify(getProductForCart()));
+    });
 </script>

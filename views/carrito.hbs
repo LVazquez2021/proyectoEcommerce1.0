@@ -1,34 +1,96 @@
 {{>header}}
-<div class="tituloCarrito">
-  {{titulo}}
-</div>
-<div class="carro-container carrito">
-<table class="table bg-dark">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Productos</th>
-      <th scope="col">Precio</th>
-      <th scope="col">cantidad</th>
-    </tr>
-  </thead>
-  <tbody class="tbody">
-    <tr>
-      
-    </tr>
-  </tbody>
-</table>
-<br><br>
-<div class="row mx-4">
-    <div class="col">
-        <h3 class="itemCartTotal">Total: 0</h3>
+    <div class="tituloCarrito">
+        {{titulo}}
     </div>
-    <div class="col d-flex justify-content-end">
-        <button id="comprar" class="btn btn-success">
-            Comprar
-        </button>
-    </div>
-</div>
-
+    
+    <div class="carro-container carrito">
+        <table class="table bg-dark">
+            <thead>
+                <tr>
+                    <th scope="col">FOTO</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                {{#each cart}}
+                <tr class="lineaProducto">
+                    <td class="table__productos"><img src="{{this.img}}" alt="img"></td>
+                    <td class="title">{{this.brand}}</td>
+                    <td class="title">{{this.model}}</td>
+                    <td class="table__price">${{number this.price}}</td>
+                    <td class="table__cantidad">
+                        <input id="{{this.id}}-inputQuantity" type="number" class="input__elemento" value="{{this.quantity}}">
+                        <button id="{{this.id}}-btnBorrar"  class="delete btn btn-danger">x</button>
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        <br><br>
+        <div class="row mx-4">
+            <div class="col">
+                <h3 id="totalCart" class="itemCartTotal">Total: 0</h3>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <button  id="comprar" class="btn btn-success">
+                Comprar
+                </button>
+            </div>
+        </div>
     </div>
 {{>footer}}
+
+
+
+<script>
+    var decodedJson = decodeURIComponent("{{{encodedJson}}}");
+    var cart = JSON.parse(decodedJson);
+
+    cart.forEach((producto)=>{
+        const btnBorrar = document.getElementById(producto.id + '-btnBorrar');
+        btnBorrar.addEventListener('click', function(){
+        sacarCarrito(producto.id)
+        })
+    })
+
+
+    function sacarCarrito(id){
+    fetch('/remove-item', {
+        method:"POST",
+        headers: {
+        'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({
+            id:id
+        })
+    })
+    .then((res)=>res.json())
+    .then(res=>{
+        window.location.reload()
+    })
+    }
+
+    const totalCart = document.getElementById('totalCart');
+    function actualizarTotal(){
+        let precioFinal = 0;
+        cart.forEach((prod)=>{
+
+            precioFinal = precioFinal + (parseFloat(prod.price)*prod.quantity);
+        
+        })
+        totalCart.innerText = "Total: $"+ precioFinal;
+    }
+
+actualizarTotal();
+
+   cart.forEach(producto =>{
+        const inputQuantity = document.getElementById(producto.id + '-inputQuantity');
+        inputQuantity.addEventListener('change', function(e){
+            producto.quantity = e.target.value;
+            actualizarTotal();
+        })
+   })  
+</script>

@@ -31,6 +31,10 @@ header {
     margin-bottom: 40px;
 }
 
+.shadowCard:hover {
+    box-shadow: 0px 5px 10px -7px black, 0px -5px 10px -7px black;
+}
+
 .contenedor .card img {
     width: 200px;
     height: 200px;
@@ -41,14 +45,14 @@ header {
     position: relative;
     top: 180px;
     width: 90%;
-    height: 350px;
+    height: 35%;
     border: 1px solid black;
 }
 
 .tituloCarrito {
     position: absolute;
     top: 130px;
-    left: 70px;
+    left: 190px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     font-weight: bold;
@@ -72,7 +76,7 @@ header {
 }
 
 .table__productos>img {
-    width: 9rem;
+    width: 7rem;
     object-fit: contain;
     border-radius: 6px;
     margin-right: 20px;
@@ -86,6 +90,11 @@ header {
     font-weight: 700;
     margin-right: 30px;
     margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.lineaProducto {
+    vertical-align: middle;
 }
 
 .footer-gral {
@@ -173,11 +182,6 @@ header {
     padding: 5px;
 }
 
-#btn-a {
-    display: block;
-    width: 200px;
-}
-
 .botones #btn2 {
     margin-top: 10px;
 }
@@ -205,4 +209,13 @@ header {
 #btn-a {
     color: white;
     text-decoration: none;
+}
+
+#btn-a {
+    display: block;
+    width: 200px;
+}
+
+#comprar {
+    margin-bottom: 15px;
 }
