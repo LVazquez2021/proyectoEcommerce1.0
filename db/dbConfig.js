@@ -1,7 +1,7 @@
-/* const dotenv = require('dotenv').config(); */
+require('dotenv').config();
 
 const dbConfig = {
-    url: "mongodb+srv://LuisVazquez:LuisVazquez3000@cluster0.ptndt.mongodb.net/test",
+    url: process.env.URL,
     database: "ecommerceDB",
     coleccion: "productos"
 };
