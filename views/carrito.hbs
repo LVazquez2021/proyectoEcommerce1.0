@@ -49,6 +49,7 @@
     var decodedJson = decodeURIComponent("{{{encodedJson}}}");
     var cart = JSON.parse(decodedJson);
 
+  
     cart.forEach((producto)=>{
         const btnBorrar = document.getElementById(producto.id + '-btnBorrar');
         btnBorrar.addEventListener('click', function(){

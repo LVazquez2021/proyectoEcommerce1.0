@@ -1,27 +1,55 @@
 # Proyecto Ecommerce Website
 
-### Installing
+Welcome to <%= projectName %> 👋
+<% if (isProjectOnNpm) { -%> Version <% } -%> <% if (projectVersion && !isProjectOnNpm) { -%> Version <% } -%> <% if (projectPrerequisites) { -%> <% projectPrerequisites.map(({ name, value }) => { -%>  <% }) -%> <% } -%> <% if (projectDocumentationUrl) { -%> Documentation <% } -%> <% if (isGithubRepos) { -%> Maintenance <% } -%> <% if (licenseName) { -%> License: <%= licenseName %> <% } -%> <% if (authorTwitterUsername) { -%> Twitter: <%= authorTwitterUsername %> <% } -%>
 
-```
-npm install
-```
+<% if (projectDescription) { -%>
+<%= projectDescription %> <% } -%> <% if (projectHomepage) { -%>
 
-TAREAS PENDIENTES
+🏠 Homepage
+<% } -%> <% if (projectDemoUrl) { -%>
 
-CREAR PERFIL ADMINISTRADOR, QUE PUEDA AGREGAR PRODUCTOS, MODIFICAR PRODUCTOS, ELIMINAR, ETC.-
+✨ Demo
+<% } -%> <% if (projectPrerequisites && projectPrerequisites.length) { -%>
 
-EN EL CARRITO DEL HEADER, PONER UN MODAL QUE ME MUESTRE SI EL CARRITOESTA VACIO O TIENE ELEMENTOS,
+Prerequisites
+<% projectPrerequisites.map(({ name, value }) => { -%>
 
-EN EL CARRITO PONER UN MENSAJE QUE DIGA QUE EL CARRITO ESTA VACIO.-
+<%= name %> <%= value %> <% }) -%> <% } -%> <% if (installCommand) { -%>
+Install
+<%= installCommand %>
+<% } -%> <% if (usage) { -%>
 
-AL EFECTUAR LA COMPRA, LOGUEARSE O REGISTRARSE SI NO ESTA REGISTRADO.-
+Usage
+<%= usage %>
+<% } -%> <% if (testCommand) { -%>
 
-  
-IMPLEMEMNTAR ROUTER
+Run tests
+<%= testCommand %>
+<% } -%> <% if (authorName || authorTwitterUsername || authorGithubUsername) { -%>
 
-VALIDACION DE INPUT PARA HACER LOGIN Y SIGN IN 
+Author
+<% if (authorName) { %> 👤 <%= authorName %> <% } %> <% if (authorWebsite) { -%>
 
-VER LINKS PARA MEJORAR EL GITHUB
+Website: <%= authorWebsite %> <% } -%> <% if (authorTwitterUsername) { -%>
+Twitter: [@<%= authorTwitterUsername %>](https://twitter.com/<%= authorTwitterUsername %>) <% } -%> <% if (authorGithubUsername) { -%>
+GitHub: [@<%= authorGithubUsername %>](https://github.com/<%= authorGithubUsername %>) <% } -%> <% if (authorLinkedInUsername) { -%>
+LinkedIn: [@<%= authorLinkedInUsername %>](https://linkedin.com/in/<%= authorLinkedInUsername %>) <% } -%> <% } -%> <% if (issuesUrl) { -%>
+🤝 Contributing
+Contributions, issues and feature requests are welcome!
+Feel free to check issues page. <%= contributingUrl ? You can also take a look at the [contributing guide](${contributingUrl}). : '' %> <% } -%>
+
+Show your support
+Give a ⭐️ if this project helped you! <% if (authorPatreonUsername) { -%>
+
+ <% } -%> <% if (licenseName && licenseUrl) { -%>
+📝 License
+<% if (authorName && authorGithubUsername) { -%> Copyright © <%= currentYear %> [<%= authorName %>](https://github.com/<%= authorGithubUsername %>).
+<% } -%> This project is <%= licenseName %> licensed. <% } -%>
+
+<%- include('footer.md'); -%>
+
+
 
 
 
