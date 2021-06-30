@@ -1,6 +1,8 @@
 # Proyecto Ecommerce Website
+![GitHub Logo](https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif)
 
 Welcome to <%= Proyecto Ecommerce Website %> 👋
+
 
 ## Getting Started
 
@@ -39,6 +41,8 @@ npm install
 * [Express](https://expressjs.com/en/starter/installing.html)
 * [Handlebars](https://handlebarsjs.com/)
 * [Node.js](https://nodejs.org/en/download/)
+
+
 
 
 
